@@ -6,63 +6,69 @@
       position: relative;
   
     }
+    .profilemain .profile{
+        margin-top: 100px;
+    }
     .header .menu{ 
         position: fixed;
         width:100%;
-       margin-left: 30px;
+        margin-left: -50px;
         background-color:#000000;
         z-index: 100; 
       }
-
       .ani h1{
         margin-left: 130px;
         font-size: 3rem;
         font-family:Georgia, 'Times New Roman', Times, serif;
         width:100%;
       }
-
       .btn{
         margin-left: 130px;
       }
-      .demo1, p{
-        margin-left: 80px;
+      .para{
+        padding-left: 72px;
       }
+      .container, p{
+        margin-left: 10px;
+      }
+     .hdng{
+        margin-left: 50px;
+     }
       .abm{
     position: relative;
     right:100px;
       }
       .container .box2 {
-        width: 350px;
-        height: 450px;
-        border: 0px solid #666666;     
-        border-radius: 20px;  
-        margin-top: -50PX;  
-        transform: scale(0.8);
-        transition: opacity 0.6s ease-out, transform 0.6s ease-out;
-        border: 1px solid #ffffff;
-        margin-left: 50px;
-        box-shadow: rgba(216, 193, 221, 0.25) 0px 0px 10px 10px inset, rgba(0, 0, 0, 0.3) 0px 0px 10px 10px inset;
-    }
+            width: 330px;
+            height: 410px;
+            border: 0px solid #666666;
+            border-radius: 20px;
+            margin-left: 70px;
+            margin-top: -10px; 
+            transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+            border: 1px solid #ffffff;
+            box-shadow: rgba(119, 53, 134, 0.25) 0px 0px 12px 12px inset, rgba(0, 0, 0, 0.3) 0px 0px 10px 10px inset;
+      }
     .container .box2 h3{
             background: linear-gradient(50deg,rgb(171, 153, 171),rgb(249, 130, 217),rgb(209, 189, 2512), white ); 
             background-clip: text;
             color: transparent;
             padding-left: 50px;
             margin-top: 10px;
+            margin-left: 50px;
     
     }
     .container .box2, p{
         color: white;
-       padding-left:-20px ;   
+        padding-left:-20px ;   
         }
-        .container .box1 {
-            width: 350px;
-            height: 450px;
+    .container .box1 {
+            width: 330px;
+            height: 410px;
             border: 0px solid #666666;
             border-radius: 20px;
-            margin-left: -50px;
-            margin-top: -50PX;
-            transform: scale(0.8);
+            margin-left: -15px;
+            margin-top: -10px; 
             transition: opacity 0.6s ease-out, transform 0.6s ease-out;
             border: 1px solid #ffffff;
             box-shadow: rgba(119, 53, 134, 0.25) 0px 0px 12px 12px inset, rgba(0, 0, 0, 0.3) 0px 0px 10px 10px inset;
@@ -87,18 +93,61 @@
         }
         #Portfolio .menu1{
            margin-left: 100px;
-          
         }
+        .demo4{
+            margin-left: 80px;
+        }
+       .main3 .inp{
+        width: 300px;
+       }
+       .main3 .inp1{
+        width: 300px;
+       }
+       .main3 .inp2{
+        width: 300px;
+       }
+       .main3 .inp3{
+        width: 300px;
+       }
+       .main3 .inp4{
+        width: 650px;
+       }
+       
+      .main2 .para1{
+        margin-left: 80px;
+        margin-top: -50px;
+        font-size: 15px;
+      }
+      .main2 .cnct{
+        margin-left: 60px;
+      }
+      .main2 .con{
+        margin-left: -25px;
+      }
         .fil{
-            margin-left: 80px;;
+            margin-left: 80px;
         }
         .fil .card{
             width:300px;
             
+        } 
+        .mywork .card{
+            width:295px;
+            margin-left: 5%;
+            margin-right: 10%;
+            position: relative;
+            justify-content: center;
+            padding-right: 20px;
+        }
+        .card img{
+            width: 290px;
+            position: relative;
+        }
+ 
+        #contact .content-section {
+            padding-top: -400px; 
         }
 }
-
-
 
 body{
     overflow-x: hidden;
@@ -263,7 +312,7 @@ width:100%;
         .demo1{
             font-size:18px;
             color:#D7BFDA;
-            margin-top: 20px;
+            margin-top: 90px;
         }
         .demo1 h2{
             font-size: 38px;
@@ -413,6 +462,7 @@ width:100%;
 }
 .demo4{
     margin-top: 200px;
+    padding-top: 100px;
 }
 .ads{
     margin-top:200px;
@@ -485,7 +535,7 @@ width:100%;
     background-color: #000000;
     color: white;
     border-bottom: 1px solid rgb(141, 138, 138);;
-    width: 450px;
+    width: 400px;
     height:40px;
   }
   .inp1{
@@ -493,7 +543,7 @@ width:100%;
     background-color: #000000;
     color: white;
     border-bottom: 1px solid rgb(141, 138, 138);;
-    width: 450px;
+    width: 400px;
     height:40px;
     margin-top: 50px;
   }
@@ -502,7 +552,7 @@ width:100%;
     background-color: #000000;
     color: white;
     border-bottom: 1px solid rgb(141, 138, 138);;
-    width: 450px;
+    width: 400px;
     height:40px;
     margin-left: 150px;
   }
@@ -511,7 +561,7 @@ width:100%;
     background-color: #000000;
     color: white;
     border-bottom: 1px solid rgb(141, 138, 138);;
-    width: 450px;
+    width: 400px;
     height:40px;
     margin-top: 50px;
     margin-left: 150px;
@@ -525,6 +575,18 @@ width:100%;
     height:50px;
     margin-top: 50px;
     margin-left: -10px;
+  }
+  .para1{
+    color:white;
+    margin-left: 80px;
+    margin-top: -50px;
+    font-size: 15px;
+  }
+  .con{
+    margin-left:-40px
+  }
+  .cnct{
+    margin-left: 15px;
   }
   /*Contact End*/
 
@@ -872,8 +934,4 @@ width:100%;
 .menu button.active1 {
     background-color:#a86f9a;
     color: #000000;
-}
-
-.content-section {
-    padding-top: 60px; 
 }
